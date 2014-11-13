@@ -1,0 +1,53 @@
+\special{pdf: mapline + upjisr-h UniJIS-UTF16-H Ryumin-Light}
+\special{pdf: mapline + upjisg-h UniJIS-UTF16-H GothicBBB-Medium}
+\special{pdf: mapline + upjisr-v UniJIS-UTF16-V Ryumin-Light}
+\special{pdf: mapline + upjisg-v UniJIS-UTF16-V GothicBBB-Medium}
+
+\documentclass{ujarticle}
+%\usepackage{lmodern}% Latin Modern
+\usepackage[utf8x]{inputenc}
+%\usepackage{type1ec}
+\usepackage[T2A,T2B,T2C,T1]{fontenc}
+\usepackage[french,german,czech,russian,greek]{babel}
+
+\begin{document}
+\kcatcode`ç=15% not cjk character
+\kcatcode`Ŕ=15
+\kcatcode`П=15
+\kcatcode`α=15
+\kcatcode`ἀ=15
+\kcatcode`“=15
+
+\selectlanguage{french}
+\section{Français}
+Tous les êtres humains naissent libres et égaux en dignité et en droits.
+Ils sont doués de raison et de conscience et doivent agir les uns envers les autres dans un esprit de fraternité.
+
+\selectlanguage{german}
+\section{Deutsch}
+Alle Menschen sind frei und gleich an Würde und Rechten geboren.
+Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geiste der Brüderlichkeit begegnen.
+
+\selectlanguage{czech}%
+\section{Czech}
+Všichni lidé rodí se svobodní a sobě rovní co do důstojnosti a práv.
+Jsou nadáni rozumem a svědomím a mají spolu jednat v duchu bratrství. 
+
+\section{Russian}
+\selectlanguage{russian}
+\fontencoding{T2A}\selectfont
+Все люди рождаются свободными и равными в своем достоинстве и правах.
+Они наделены разумом и совестью и должны поступать в отношении друг друга в духе братства.
+
+\fontencoding{T1}\selectfont
+
+\selectlanguage{greek}
+\section{Ελληνικά}
+'Ολοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι στην αξιοπρέπεια και τα δικαιώματα.
+Είναι προικισμένοι με λογική και συνείδηση, και οφείλουν να συμπεριφέρονται μεταξύ τους με πνεύμα αδελφοσύνης.
+
+\section{日本語}
+すべての人間は、生まれながらにして自由であり、かつ、尊厳と権利とについて平等である。
+人間は、理性と良心とを授けられており、互いに同胞の精神をもって行動しなければならない。 
+
+\end{document}
