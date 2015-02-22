@@ -15,5 +15,10 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
 # 02110-1301 USA.
 
-APP_PLATFORM=android-8
+## for non-PIE
+#APP_PLATFORM=android-8
+
+## for PIE
+APP_PLATFORM=android-19
+
 APP_ABI := all
