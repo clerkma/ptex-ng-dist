@@ -1,0 +1,35 @@
+%%%%% Traditional Chinese -- serif %%%%%
+otf-utmr-h  UniCNS-UCS2-H  MSung-Light
+otf-utmr-v  UniCNS-UCS2-V  MSung-Light
+otf-ctmr-h  Identity-H     MSung-Light
+otf-ctmr-v  Identity-V     MSung-Light
+
+%%%%% Traditional Chinese -- sans serif %%%%%
+otf-utgr-h  UniCNS-UCS2-H  MHei-Medium
+otf-utgr-v  UniCNS-UCS2-V  MHei-Medium
+otf-ctgr-h  Identity-H     MHei-Medium
+otf-ctgr-v  Identity-V     MHei-Medium
+
+%%%%% Simplified Chinese -- serif %%%%%
+otf-ucmr-h  UniGB-UCS2-H   STSong-Light
+otf-ucmr-v  UniGB-UCS2-V   STSong-Light
+otf-ccmr-h  Identity-H     STSong-Light
+otf-ccmr-v  Identity-V     STSong-Light
+
+%%%%% Simplified Chinese -- sans serif %%%%%
+otf-ucgr-h  UniGB-UCS2-H   STHeiti-Regular
+otf-ucgr-v  UniGB-UCS2-V   STHeiti-Regular
+otf-ccgr-h  Identity-H     STHeiti-Regular
+otf-ccgr-v  Identity-V     STHeiti-Regular
+
+%%%%% Korean -- serif %%%%%
+otf-ukmr-h  UniKS-UCS2-H   HYSMyeongJo-Medium
+otf-ukmr-v  UniKS-UCS2-V   HYSMyeongJo-Medium
+otf-ckmr-h  Identity-H     HYSMyeongJo-Medium
+otf-ckmr-v  Identity-V     HYSMyeongJo-Medium
+
+%%%%% Korean -- sans serif %%%%%
+otf-ukgr-h  UniKS-UCS2-H   HYGoThic-Medium
+otf-ukgr-v  UniKS-UCS2-V   HYGoThic-Medium
+otf-ckgr-h  Identity-H     HYGoThic-Medium
+otf-ckgr-v  Identity-V     HYGoThic-Medium

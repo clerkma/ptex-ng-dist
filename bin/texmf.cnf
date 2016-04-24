@@ -1,0 +1,24 @@
+%
+%   ApTeX Portable. 2016/04/21.
+%
+
+TEXMFROOT = $SELFAUTODIR
+TEXMFDIST = $TEXMFROOT/share
+TEXMF     = {!!$TEXMFDIST}
+TEXMFDBS  = {!!$TEXMFDIST}
+SYSTEXMF  = $TEXMFDIST
+
+TEXINPUTS.aptex   = .;$TEXMF/tex/{uptex,ptex,plain,generic,}//
+TEXINPUTS.aplatex = .;$TEXMF/tex/{uplatex,platex,latex,generic,}//
+TEXINPUTS         = .;$TEXMF/tex/{$progname,generic,}//
+
+TEXFORMATS = .;$TEXMF/fmt
+
+VFFONTS     = .;$TEXMF/fonts/vf//
+TFMFONTS    = .;$TEXMF/fonts/tfm//
+TEXFONTMAPS = .;$TEXMF/fonts/map/{$progname,pdftex,dvips,}//
+OSFONTDIR   = $SystemRoot/fonts//
+T1FONTS     = .;$TEXMF/fonts/type1//;$OSFONTDIR//
+TTFONTS     = .;$TEXMF/fonts/{truetype,opentype}//;$OSFONTDIR//
+ENCFONTS    = .;$TEXMF/fonts/enc//
+CMAPFONTS   = .;$TEXMF/fonts/cmap//
