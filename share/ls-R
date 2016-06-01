@@ -13,6 +13,8 @@ dvipdfmx.cfg
 ./fmt:
 aplatex.fmt
 aptex.fmt
+platex-ng.fmt
+ptex-ng.fmt
 
 ./fonts:
 afm
@@ -245,6 +247,10 @@ UTF8-UTF16
 dvipdfm
 dvipdfmx
 dvips
+fandol-embeded-scheme1.map
+fandol-embeded-scheme1.map~
+fandol-embeded-scheme2.map
+glyphlist
 pdftex
 sim-embeded-scheme.map
 sim-non-embeded-scheme.map
@@ -422,6 +428,11 @@ euler.map
 latxfont.map
 symbols.map
 
+./fonts/map/glyphlist:
+glyphlist.txt
+pdfglyphlist.txt
+texglyphlist.txt
+
 ./fonts/map/pdftex:
 context
 gentium-tug
@@ -480,6 +491,14 @@ pdftex_dl14.map
 pdftex_ndl14.map
 
 ./fonts/opentype:
+FandolBraille-Display.otf
+FandolBraille-Regular.otf
+FandolFang-Regular.otf
+FandolHei-Bold.otf
+FandolHei-Regular.otf
+FandolKai-Regular.otf
+FandolSong-Bold.otf
+FandolSong-Regular.otf
 
 ./fonts/tfm:
 public

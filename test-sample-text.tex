@@ -1,0 +1,19 @@
+%aptex +aplatex test-sample-text.tex
+\special{pdf: mapfile fandol-embeded-scheme1.map}
+\documentclass{ujarticle}
+\pagestyle{empty}
+\begin{document}
+1. 指数函数$y=a^x (a>1)$与幂函数$y=x^n (n>0)$
+
+在区间$(0, +\infty)$上，无论$n$比$a$大多少，尽管在$x$的一定范围内$a^x$
+会小于$x^n$，但由于$a^x$的增长速度大于$x^n$的增长速度，因而总存在一个
+$x_0$，当$x>x_0$时有$a^x>x^n$。
+
+2.求下列函数的导数
+
+(1) $y=(x+1)(x+2)(x+3)$
+
+(2) $y=\displaystyle\frac{\sqrt{x} +x^5+\sin x}{x}$
+
+(3) $y=\displaystyle\frac{e^x+1}{e^x-1}$
+\end{document}
