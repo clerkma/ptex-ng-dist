@@ -6,20 +6,13 @@
 %%
 %% ujclasses.dtx  (with options: `article,yoko')
 %% 
-%% IMPORTANT NOTICE:
+%% Copyright (c) 2010 ASCII MEDIA WORKS
+%% Copyright (c) 2016 Takuji Tanaka
+%% Copyright (c) 2016 Japanese TeX Development Community
 %% 
-%% For the copyright see the source file.
+%% This file is part of the upLaTeX2e system (community edition).
+%% --------------------------------------------------------------
 %% 
-%% Any modified versions of this file must be renamed
-%% with new filenames distinct from ujarticle.cls.
-%% 
-%% For distribution of the original source see the terms
-%% for copying and modification in the file ujclasses.dtx.
-%% 
-%% This generated file may be distributed as long as the
-%% original source files, as listed above, are part of the
-%% same distribution. (The sources need not necessarily be
-%% in the same archive or directory.)
 %% File: ujclasses.dtx
 %% \CharacterTable
 %%  {Upper-case    \A\B\C\D\E\F\G\H\I\J\K\L\M\N\O\P\Q\R\S\T\U\V\W\X\Y\Z
@@ -39,7 +32,7 @@
 %%
 \NeedsTeXFormat{pLaTeX2e}
 \ProvidesClass{ujarticle}
-  [2011/05/07 v1.6_u00
+  [2011/05/07 v1.6-u00
  Standard upLaTeX class]
 \newcounter{@paper}
 \newif\if@landscape \@landscapefalse

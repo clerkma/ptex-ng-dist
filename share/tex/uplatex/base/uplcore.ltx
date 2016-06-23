@@ -9,21 +9,14 @@
 %% plcore.dtx  (with options: `plcore')
 %% uplvers.dtx  (with options: `plfinal')
 %% 
-%% IMPORTANT NOTICE:
+%% Copyright (c) 2010 ASCII MEDIA WORKS
+%% Copyright (c) 2016 Takuji Tanaka
+%% Copyright (c) 2016 Japanese TeX Development Community
 %% 
-%% For the copyright see the source file.
+%% This file is part of the upLaTeX2e system (community edition).
+%% --------------------------------------------------------------
 %% 
-%% Any modified versions of this file must be renamed
-%% with new filenames distinct from uplcore.ltx.
-%% 
-%% For distribution of the original source see the terms
-%% for copying and modification in the file uplvers.dtx uplfonts.dtx plcore.dtx uplvers.dtx.
-%% 
-%% This generated file may be distributed as long as the
-%% original source files, as listed above, are part of the
-%% same distribution. (The sources need not necessarily be
-%% in the same archive or directory.)
-%% File: uplvers
+%% File: uplvers.dtx
 %% \CharacterTable
 %%  {Upper-case    \A\B\C\D\E\F\G\H\I\J\K\L\M\N\O\P\Q\R\S\T\U\V\W\X\Y\Z
 %%   Lower-case    \a\b\c\d\e\f\g\h\i\j\k\l\m\n\o\p\q\r\s\t\u\v\w\x\y\z
@@ -41,7 +34,31 @@
 %%   Right brace   \}     Tilde         \~}
 %%
 \def\pfmtname{pLaTeX2e}
-\def\pfmtversion{2011/05/07u00}
+\def\pfmtversion
+   {2016/06/10u01}
+\def\ppatch@level{1}
+\def\plIncludeInRelease#1{\kernel@ifnextchar[%
+  {\@plIncludeInRelease{#1}}
+  {\@plIncludeInRelease{#1}[#1]}}
+\def\@plIncludeInRelease#1[#2]{\@plIncludeInRele@se{#2}}
+\def\@plIncludeInRele@se#1#2#3{%
+  \toks@{[#1] #3}%
+  \expandafter\ifx\csname\string#2+\@currname+IIR\endcsname\relax
+    \ifnum\expandafter\@parse@version#1//00\@nil
+          >\expandafter\@parse@version\pfmtversion//00\@nil
+      \GenericInfo{}{Skipping: \the\toks@}%
+     \expandafter\expandafter\expandafter\@gobble@plIncludeInRelease
+    \else
+      \GenericInfo{}{Applying: \the\toks@}%
+      \expandafter\let\csname\string#2+\@currname+IIR\endcsname\@empty
+    \fi
+  \else
+    \GenericInfo{}{Already applied: \the\toks@}%
+    \expandafter\@gobble@plIncludeInRelease
+  \fi
+}
+\long\def\@gobble@plIncludeInRelease#1\plEndIncludeInRelease{}
+\let\plEndIncludeInRelease\relax
 %% File: uplfonts.dtx
 %% \CharacterTable
 %%  {Upper-case    \A\B\C\D\E\F\G\H\I\J\K\L\M\N\O\P\Q\R\S\T\U\V\W\X\Y\Z
@@ -456,7 +473,7 @@
 \newbox\adjust@box
 \newdimen\adjust@dimen
 \def\adjustbaseline{%
-    \setbox\adjust@box\hbox{\char\euc"A1A1}%
+    \setbox\adjust@box\hbox{\char\euc"A1A1}%"
     \cht\ht\adjust@box
     \cdp\dp\adjust@box
     \cwd\wd\adjust@box
@@ -731,8 +748,8 @@
        \@texttop
        \dimen@ \dp\@outputbox
        \unvbox \@outputbox
-       \iftdir\hskip\z@
-       \else\vskip -\dimen@\fi
+       \iftdir\hskip\z@\fi
+       \vskip -\dimen@
        \@textbottom
        \ifvoid\footins\else % for pLaTeX
          \vskip \skip\footins
@@ -762,7 +779,7 @@
        \vskip \@tempdima
        \@textbottom
        \ifvoid\footins\else % for pLaTeX
- \vskip\skip\footins
+         \vskip\skip\footins
          \color@begingroup
             \normalcolor
             \footnoterule
@@ -777,7 +794,7 @@
          \unvbox\@outputbox
          \@textbottom
          \ifvoid\footins\else % for pLaTeX
-   \vskip\skip\footins
+           \vskip\skip\footins
            \color@begingroup
               \normalcolor
               \footnoterule
@@ -855,6 +872,7 @@
 \def\@outputtombow{%
   \iftombow
   \vbox to\z@{\kern-13mm\relax
+    \boxmaxdepth\maxdimen%% Added (Apr 1, 2016)
     \moveleft3mm\vbox to\@@paperheight{%
       \hbox to\@@paperwidth{\hskip3mm\relax
          \copy\@TL\hfill\copy\@TC\hfill\copy\@TR\hskip3mm}%
@@ -940,9 +958,9 @@
   \stepcounter{page}%
   \let\firstmark\botmark
 }
-\renewcommand\@makefnmark{\hbox{%
-  \ifydir \@textsuperscript{\normalfont\@thefnmark}%
-  \else\hbox{\yoko\@textsuperscript{\normalfont\@thefnmark}}\fi}}
+\renewcommand\@makefnmark{%
+  \ifydir \hbox{}\hbox{\@textsuperscript{\normalfont\@thefnmark}}\hbox{}%
+  \else\hbox{\yoko\@textsuperscript{\normalfont\@thefnmark}}\fi}
 \long\def\@footnotetext#1{%
   \ifydir\def\@tempa{\yoko}\else\def\@tempa{\tate}\fi
   \insert\footins{\@tempa%
@@ -983,7 +1001,35 @@
 \newcommand\printglossary{\@input@{\jobname.gls}}
 \newcount\hour
 \newcount\minute
-%% File: uplvers
+\def\@tabular{\leavevmode \null\hbox \bgroup $\let\@acol\@tabacol
+   \let\@classz\@tabclassz
+   \let\@classiv\@tabclassiv \let\\\@tabularcr\@tabarray}
+\def\endtabular{\crcr\egroup\egroup $\egroup\null}
+\expandafter \let \csname endtabular*\endcsname = \endtabular
+\let\@parboxto\@empty
+\long\def\@iiiparbox#1#2[#3]#4#5{%
+  \leavevmode
+  \@pboxswfalse
+  \setlength\@tempdima{#4}%
+  \@begin@tempboxa\vbox{\hsize\@tempdima\@parboxrestore#5\@@par}%
+    \ifx\relax#2\else
+      \setlength\@tempdimb{#2}%
+      \edef\@parboxto{to\the\@tempdimb}%
+    \fi
+    \if#1b\vbox
+    \else\if #1t\vtop
+    \else\ifmmode\vcenter
+    \else\@pboxswtrue\null$\vcenter% !!!
+    \fi\fi\fi
+    \@parboxto{\let\hss\vss\let\unhbox\unvbox
+       \csname bm@#3\endcsname}%
+    \if@pboxsw \m@th$\null\fi% !!!
+  \@end@tempboxa}
+\def\underline#1{%
+  \relax
+  \ifmmode\@@underline{#1}%
+  \else \leavevmode\null$\@@underline{\hbox{#1}}\m@th$\null\relax\fi}
+%% File: uplvers.dtx
 %% \CharacterTable
 %%  {Upper-case    \A\B\C\D\E\F\G\H\I\J\K\L\M\N\O\P\Q\R\S\T\U\V\W\X\Y\Z
 %%   Lower-case    \a\b\c\d\e\f\g\h\i\j\k\l\m\n\o\p\q\r\s\t\u\v\w\x\y\z
@@ -1000,61 +1046,53 @@
 %%   Grave accent  \`     Left brace    \{     Vertical bar  \|
 %%   Right brace   \}     Tilde         \~}
 %%
-\IfFileExists{uplpatch.ltx}
-  {\typeout{************************************^^J%
-            * Appliying patch file uplpatch.ltx *^^J%
-            ************************************}
-  \def\pfmtversion@topatch{unknown}
-  \input{uplpatch.ltx}
-  \ifx\pfmtversion\pfmtversion@topatch
-    \ifx\ppatch@level\@undefined
-      \typeout{^^J^^J^^J%
-   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!^^J%
-   !! Patch file `uplpatch.ltx' (for version <\pfmtversion@topatch>)^^J%
-   !! is not suitable for version <\pfmtversion> of pLaTeX.^^J^^J%
-   !! Please check if iniptex found an old patch file:^^J%
-   !! --- if so, rename it or delete it, and redo the^^J%
-   !!     iniptex run.^^J%
-   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!^^J}%
-      \batchmode \@@end
+\def\documentstyle{%
+  \@latex@error{upLaTeX does NOT support LaTeX 2.09 compatibility mode}\@ehc
+  \documentclass}
+\ifx\patch@level\@undefined % fallback if undefined in LaTeX
+  \def\patch@level{0}\fi
+\ifx\ppatch@level\@undefined % fallback if undefined in upLaTeX
+  \def\ppatch@level{0}\fi
+\begingroup
+  \def\parse@BANNER#1{\expandafter\parse@@BANNER#1}
+  \def\parse@@BANNER#1#2#3#4{#2}
+  \edef\platexTMP{%
+    \ifnum\ppatch@level=0
+      \everyjob{\noexpand\typeout{%
+        \pfmtname\space<\pfmtversion>\space
+          (based on \parse@BANNER{\platexBANNER})}}%
+    \else
+      \everyjob{\noexpand\typeout{%
+        \pfmtname\space<\pfmtversion>+\ppatch@level\space
+          (based on \parse@BANNER{\platexBANNER})}}%
     \fi
-  \else
-      \typeout{^^J^^J^^J%
-   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!^^J%
-   !! Patch file `uplpatch.ltx' (for version <\pfmtversion@topatch>)^^J%
-   !! is not suitable for version <\pfmtversion> of pLaTeX.^^J%
-   !!^^J%
-   !! Please check if iniptex found an old patch file:^^J%
-   !! --- if so, rename it or delete it, and redo the^^J%
-   !!     iniptex run.^^J%
-   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!^^J}%
-      \batchmode \@@end
-  \fi
-  \let\pfmtversion@topatch\relax
-  }{}
-\ifx\patch@level\@undefined
-  \ifx\ppatch@level\@undefined
-     \everyjob{\typeout{%
-        \pfmtname\space<\pfmtversion>\space
-          (based on \fmtname\space<\fmtversion>)}}
-  \else
-     \everyjob{\typeout{%
-        \pfmtname\space<\pfmtversion>+\ppatch@level\space
-          (based on \fmtname\space<\fmtversion>)}}
-  \fi
-\else
-  \ifx\ppatch@level\@undefined
-     \everyjob{\typeout{%
-        \pfmtname\space<\pfmtversion>\space
-          (based on \fmtname\space<\fmtversion>\space
-            patch level \patch@level)}}
-  \else
-     \everyjob{\typeout{%
-        \pfmtname\space<\pfmtversion>+\ppatch@level\space
-          (based on \fmtname\space<\fmtversion>\space
-            patch level \patch@level)}}
-  \fi
-\fi
+  }
+\expandafter
+\endgroup \platexTMP
+\begingroup
+  \def\parse@BANNER#1{\expandafter\parse@@BANNER#1}
+  \def\parse@@BANNER#1#2#3#4{#4}
+  \edef\platexTMP{%
+    \the\everyjob\noexpand\typeout{\parse@BANNER{\platexBANNER}}%
+  }
+  \everyjob=\expandafter{\platexTMP}%
+  \edef\platexTMP{%
+    \noexpand\let\noexpand\platexBANNER=\noexpand\@undefined
+    \noexpand\everyjob={\the\everyjob}%
+  }
+  \expandafter
+\endgroup \platexTMP
+\AtBeginDocument{%
+  \@ifpackageloaded{latexrelease}{%
+    \@ifpackageloaded{platexrelease}{}{%
+      \@latex@warning@no@line{%
+        Package latexrelease is loaded.\MessageBreak
+        Some patches in pLaTeX2e core may be overwritten.\MessageBreak
+        Consider using platexrelease.\MessageBreak
+        See platex.pdf for detail}%
+    }%
+  }{}%
+}
 \endinput
 %%
 %% End of file `uplcore.ltx'.

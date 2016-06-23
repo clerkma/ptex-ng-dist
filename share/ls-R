@@ -13,8 +13,6 @@ dvipdfmx.cfg
 ./fmt:
 aplatex.fmt
 aptex.fmt
-platex-ng.fmt
-ptex-ng.fmt
 
 ./fonts:
 afm
@@ -248,7 +246,6 @@ dvipdfm
 dvipdfmx
 dvips
 fandol-embeded-scheme1.map
-fandol-embeded-scheme1.map~
 fandol-embeded-scheme2.map
 glyphlist
 pdftex
@@ -1668,7 +1665,6 @@ cyracc.def
 
 ./tex/uplatex:
 base
-config
 
 ./tex/uplatex/base:
 jt2gt.fd
@@ -1684,6 +1680,7 @@ ujreport.cls
 ujsize10.clo
 ujsize11.clo
 ujsize12.clo
+ukinsoku.tex
 uplatex.ltx
 uplcore.ltx
 upldefs.ltx
@@ -1699,18 +1696,10 @@ utsize10.clo
 utsize11.clo
 utsize12.clo
 
-./tex/uplatex/config:
-uplatex.ini
-
 ./tex/uptex:
 base
-config
 
 ./tex/uptex/base:
 euptex.src
 ukinsoku.tex
 uptex.tex
-
-./tex/uptex/config:
-euptex.ini
-uptex.ini

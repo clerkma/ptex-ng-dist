@@ -6,20 +6,13 @@
 %%
 %% uplfonts.dtx  (with options: `trace')
 %% 
-%% IMPORTANT NOTICE:
+%% Copyright (c) 2010 ASCII MEDIA WORKS
+%% Copyright (c) 2016 Takuji Tanaka
+%% Copyright (c) 2016 Japanese TeX Development Community
 %% 
-%% For the copyright see the source file.
+%% This file is part of the upLaTeX2e system (community edition).
+%% --------------------------------------------------------------
 %% 
-%% Any modified versions of this file must be renamed
-%% with new filenames distinct from uptrace.sty.
-%% 
-%% For distribution of the original source see the terms
-%% for copying and modification in the file uplfonts.dtx.
-%% 
-%% This generated file may be distributed as long as the
-%% original source files, as listed above, are part of the
-%% same distribution. (The sources need not necessarily be
-%% in the same archive or directory.)
 %% File: uplfonts.dtx
 %% \CharacterTable
 %%  {Upper-case    \A\B\C\D\E\F\G\H\I\J\K\L\M\N\O\P\Q\R\S\T\U\V\W\X\Y\Z
@@ -37,6 +30,10 @@
 %%   Grave accent  \`     Left brace    \{     Vertical bar  \|
 %%   Right brace   \}     Tilde         \~}
 %%
+\NeedsTeXFormat{pLaTeX2e}
+\ProvidesPackage{uptrace}
+     [2016/04/30 v1.6b-u00 Standard upLaTeX package (font tracing)]
+\RequirePackageWithOptions{tracefnt}
 \DeclareRobustCommand\selectfont{%
   \let\tmp@error@fontshape\error@fontshape
   \let\error@fontshape\error@kfontshape
@@ -85,8 +82,8 @@
   \xdef\font@name{\csname\curr@fontshape/\f@size\endcsname}%
   \pickup@font
   \font@name
-\ifnum \tracingfonts>\tw@
-  \@font@info{Roman:Switching to \font@name}\fi
+  \ifnum \tracingfonts>\tw@
+    \@font@info{Roman:Switching to \font@name}\fi
   \enc@update
   \ifx\f@linespread\baselinestretch \else
     \set@fontsize\baselinestretch\f@size\f@baselineskip
@@ -129,7 +126,7 @@
 \newbox\adjust@box
 \newdimen\adjust@dimen
 \def\adjustbaseline{%
-    \setbox\adjust@box\hbox{\char\euc"A1A1}%
+    \setbox\adjust@box\hbox{\char\euc"A1A1}%"
     \cht\ht\adjust@box
     \cdp\dp\adjust@box
     \cwd\wd\adjust@box
