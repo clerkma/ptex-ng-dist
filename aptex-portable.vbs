@@ -1,4 +1,4 @@
-'   Copyright 2014 Clerk Ma & Liam Huang
+'   Copyright 2014, 2015, 2016 Clerk Ma & Liam Huang
 '
 '   This program is free software; you can redistribute it and/or modify
 '   it under the terms of the GNU General Public License as published by
@@ -23,6 +23,6 @@ Set objFS       = WScript.CreateObject("Scripting.FileSystemObject")
 Set objEnv      = objWshShell.Environment("Process")
 strDrv          = WScript.CreateObject("WScript.Shell").CurrentDirectory
 
-objEnv.Item("PATH")       = strDrv & "\bin;" & objEnv.Item("PATH")
+objEnv.Item("PATH")       = strDrv & "\bin\win64;" & objEnv.Item("PATH")
 
 objWshShell.Run "%COMSPEC%"
