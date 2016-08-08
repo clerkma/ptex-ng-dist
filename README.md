@@ -5,6 +5,7 @@
 
 # 设定环境变量
 ## Windows环境下设定环境变量
+注意：现在只提供Win64版本，Win32版本可从W32TeX种获取。
 ```
 set PATH=YOUR_PATH/bin/win64;%PATH%
 ```
@@ -16,4 +17,12 @@ export PATH=YOUR_PATH/bin/linux-x86_64:$PATH
 或
 ```
 export PATH=YOUR_PATH/bin/darwin-x86_64:$PATH
+```
+## Android下设定环境变量
+由于Android平台的ABI比较多，所以在`bin/android`文件夹下还有一层文件夹用来存放不同ABI的二进制文件。
+在使用的时候需要先确定所使用的机型的ABI，然后将该ABI文件夹下的可执行文件提取到`bin/android`文件夹下。
+同时，需要更改一下texmf.cnf文件内的`OSFONTDIR`变量的值。Android下面的Terminal模拟器推荐使用Android
+Terminal Emulator或者Termux。
+```
+export PATH=YOUR_PATH/bin/android:$PATH
 ```
