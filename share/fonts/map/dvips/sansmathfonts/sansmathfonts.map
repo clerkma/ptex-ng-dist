@@ -1,0 +1,165 @@
+% Unslanted italic for pounds symbol
+cmssu10 ComputerModernSans-UnslanteditalicRegular10pt <cmssu10.pfb
+
+% Math italic
+cmssmi10 ComputerModernSans-MathitalicRegular10pt <cmssmi10.pfb
+cmssmi5 ComputerModernSans-MathitalicRegular5pt <cmssmi5.pfb
+cmssmi6 ComputerModernSans-MathitalicRegular6pt <cmssmi6.pfb
+cmssmi7 ComputerModernSans-MathitalicRegular7pt <cmssmi7.pfb
+cmssmi8 ComputerModernSans-MathitalicRegular8pt <cmssmi8.pfb
+cmssmi9 ComputerModernSans-MathitalicRegular9pt <cmssmi9.pfb
+cmssmib10 ComputerModernSans-MathitalicBold10pt <cmssmib10.pfb
+cmssmib5 ComputerModernSans-MathitalicBold5pt <cmssmib5.pfb
+cmssmib6 ComputerModernSans-MathitalicBold6pt <cmssmib6.pfb
+cmssmib7 ComputerModernSans-MathitalicBold7pt <cmssmib7.pfb
+cmssmib8 ComputerModernSans-MathitalicBold8pt <cmssmib8.pfb
+cmssmib9 ComputerModernSans-MathitalicBold9pt <cmssmib9.pfb
+
+% Math symbol
+cmsssy5 ComputerModernSans-Regular5pt <cmsssy5.pfb
+cmsssy6 ComputerModernSans-Regular6pt <cmsssy6.pfb
+cmsssy7 ComputerModernSans-Regular7pt <cmsssy7.pfb
+cmsssy8 ComputerModernSans-Regular8pt <cmsssy8.pfb
+cmsssy9 ComputerModernSans-Regular9pt <cmsssy9.pfb
+cmsssy10 ComputerModernSans-Regular10pt <cmsssy10.pfb
+cmssbsy5 ComputerModernSans-Bold5pt <cmssbsy5.pfb
+cmssbsy6 ComputerModernSans-Bold6pt <cmssbsy6.pfb
+cmssbsy7 ComputerModernSans-Bold7pt <cmssbsy7.pfb
+cmssbsy8 ComputerModernSans-Bold8pt <cmssbsy8.pfb
+cmssbsy9 ComputerModernSans-Bold9pt <cmssbsy9.pfb
+cmssbsy10 ComputerModernSans-Bold10pt <cmssbsy10.pfb
+
+% Math extended
+cmssex7 ComputerModernSans-MathextensionRegular7pt <cmssex7.pfb
+cmssex8 ComputerModernSans-MathextensionRegular8pt <cmssex8.pfb
+cmssex9 ComputerModernSans-MathextensionRegular9pt <cmssex9.pfb
+cmssex10 ComputerModernSans-MathextensionRegular10pt <cmssex10.pfb
+
+% AMS
+ssmsam5 ssmsam5 <ssmsam5.pfb
+ssmsam6 ssmsam6 <ssmsam6.pfb
+ssmsam7 ssmsam7 <ssmsam7.pfb
+ssmsam8 ssmsam8 <ssmsam8.pfb
+ssmsam9 ssmsam9 <ssmsam9.pfb
+ssmsam10 ssmsam10 <ssmsam10.pfb
+ssmsbm5 ssmsbm5 <ssmsbm5.pfb
+ssmsbm6 ssmsbm6 <ssmsbm6.pfb
+ssmsbm7 ssmsbm7 <ssmsbm7.pfb
+ssmsbm8 ssmsbm8 <ssmsbm8.pfb
+ssmsbm9 ssmsbm9 <ssmsbm9.pfb
+ssmsbm10 ssmsbm10 <ssmsbm10.pfb
+
+% Esint
+ssesint7 ssesint7 <ssesint7.pfb
+ssesint8 ssesint8 <ssesint8.pfb
+ssesint9 ssesint9 <ssesint9.pfb
+ssesint10 ssesint10 <ssesint10.pfb
+
+% Caps and small caps
+cmsscsc8 ComputerModernSans-SCRegular8pt <cmsscsc8.pfb
+cmsscsc9 ComputerModernSans-SCRegular9pt <cmsscsc9.pfb
+cmsscsc10 ComputerModernSans-SCRegular10pt <cmsscsc10.pfb
+cmsscsci8 ComputerModernSans-ItalicRegular8pt <cmsscsci8.pfb
+cmsscsci9 ComputerModernSans-ItalicRegular9pt <cmsscsci9.pfb
+cmsscsci10 ComputerModernSans-ItalicRegular10pt <cmsscsci10.pfb
+cmssbxcsc10 ComputerModernSans-SCBoldExtended10pt <cmssbxcsc10.pfb
+cmssxicsc10 ComputerModernSans-ItalicRegularExtended10pt <cmssxicsc10.pfb
+
+% Bold and bold slanted (Sauter versions)
+cmssbx8 ComputerModernSans-BoldExtended8pt <cmssbx8.pfb
+cmssbx9 ComputerModernSans-BoldExtended9pt <cmssbx9.pfb
+cmssbx12 ComputerModernSans-BoldExtended12pt <cmssbx12.pfb
+cmssbx17 ComputerModernSans-BoldExtended17pt <cmssbx17.pfb
+cmssxi8 ComputerModernSans-ItalicRegularExtended8pt <cmssxi8.pfb
+cmssxi9 ComputerModernSans-ItalicRegularExtended9pt <cmssxi9.pfb
+cmssxi10 ComputerModernSans-ItalicRegularExtended10pt <cmssxi10.pfb
+cmssxi12 ComputerModernSans-ItalicRegularExtended12pt <cmssxi12.pfb
+cmssxi17 ComputerModernSans-ItalicRegularExtended17pt <cmssxi17.pfb
+
+% Sans serif with serifed I
+cmsmfIPiXi10 ComputerModern-ItalicRegular10pt <cmsmfIPiXi10.pfb
+cmsmfIPiXi12 ComputerModern-ItalicRegular12pt <cmsmfIPiXi12.pfb
+cmsmfIPiXi17 ComputerModern-ItalicRegular17pt <cmsmfIPiXi17.pfb
+cmsmfIPiXi8 ComputerModern-ItalicRegular8pt <cmsmfIPiXi8.pfb
+cmsmfIPiXi9 ComputerModern-ItalicRegular9pt <cmsmfIPiXi9.pfb
+cmsmfIPiXibx10 ComputerModern-ItalicBoldExtended10pt <cmsmfIPiXibx10.pfb
+cmsmfIPiXibx12 ComputerModern-ItalicBoldExtended12pt <cmsmfIPiXibx12.pfb
+cmsmfIPiXibx17 ComputerModern-ItalicBoldExtended17pt <cmsmfIPiXibx17.pfb
+cmsmfIPiXibx8 ComputerModern-ItalicBoldExtended8pt <cmsmfIPiXibx8.pfb
+cmsmfIPiXibx9 ComputerModern-ItalicBoldExtended9pt <cmsmfIPiXibx9.pfb
+cmsmfIPiXibxcsc10 ComputerModern-ItalicBoldExtended10pt <cmsmfIPiXibxcsc10.pfb
+cmsmfIPiXicsc10 ComputerModern-ItalicRegular10pt <cmsmfIPiXicsc10.pfb
+cmsmfIPiXicsc8 ComputerModern-ItalicRegular8pt <cmsmfIPiXicsc8.pfb
+cmsmfIPiXicsc9 ComputerModern-ItalicRegular9pt <cmsmfIPiXicsc9.pfb
+cmsmfIPiXicsci10 ComputerModern-ItalicRegular10pt <cmsmfIPiXicsci10.pfb
+cmsmfIPiXicsci8 ComputerModern-ItalicRegular8pt <cmsmfIPiXicsci8.pfb
+cmsmfIPiXicsci9 ComputerModern-ItalicRegular9pt <cmsmfIPiXicsci9.pfb
+cmsmfIPiXii10 ComputerModern-ItalicRegular10pt <cmsmfIPiXii10.pfb
+cmsmfIPiXii12 ComputerModern-ItalicRegular12pt <cmsmfIPiXii12.pfb
+cmsmfIPiXii17 ComputerModern-ItalicRegular17pt <cmsmfIPiXii17.pfb
+cmsmfIPiXii8 ComputerModern-ItalicRegular8pt <cmsmfIPiXii8.pfb
+cmsmfIPiXii9 ComputerModern-ItalicRegular9pt <cmsmfIPiXii9.pfb
+cmsmfIPiXixi10 ComputerModern-ItalicRegularExtended10pt <cmsmfIPiXixi10.pfb
+cmsmfIPiXixi12 ComputerModern-ItalicRegularExtended12pt <cmsmfIPiXixi12.pfb
+cmsmfIPiXixi17 ComputerModern-ItalicRegularExtended17pt <cmsmfIPiXixi17.pfb
+cmsmfIPiXixi8 ComputerModern-ItalicRegularExtended8pt <cmsmfIPiXixi8.pfb
+cmsmfIPiXixi9 ComputerModern-ItalicRegularExtended9pt <cmsmfIPiXixi9.pfb
+cmsmfIPiXixicsc10 ComputerModern-ItalicRegularExtended10pt <cmsmfIPiXixicsc10.pfb
+
+% T1 encoded caps and small caps
+eczi0500 EuropeanComputerModern-ItalicRegular500pt <eczi0500.pfb
+eczi0600 EuropeanComputerModern-ItalicRegular600pt <eczi0600.pfb
+eczi0700 EuropeanComputerModern-ItalicRegular700pt <eczi0700.pfb
+eczi0800 EuropeanComputerModern-ItalicRegular800pt <eczi0800.pfb
+eczi0900 EuropeanComputerModern-ItalicRegular900pt <eczi0900.pfb
+eczi1000 EuropeanComputerModern-ItalicRegular1000pt <eczi1000.pfb
+eczi1095 EuropeanComputerModern-ItalicRegular1095pt <eczi1095.pfb
+eczi1200 EuropeanComputerModern-ItalicRegular1200pt <eczi1200.pfb
+eczi1440 EuropeanComputerModern-ItalicRegular1440pt <eczi1440.pfb
+eczi1728 EuropeanComputerModern-ItalicRegular1728pt <eczi1728.pfb
+eczi2074 EuropeanComputerModern-ItalicRegular2074pt <eczi2074.pfb
+eczi2488 EuropeanComputerModern-ItalicRegular2488pt <eczi2488.pfb
+eczi2986 EuropeanComputerModern-ItalicRegular2986pt <eczi2986.pfb
+eczi3583 EuropeanComputerModern-ItalicRegular3583pt <eczi3583.pfb
+eczo0500 EuropeanComputerModern-Regular500pt <eczo0500.pfb
+eczo0600 EuropeanComputerModern-Regular600pt <eczo0600.pfb
+eczo0700 EuropeanComputerModern-Regular700pt <eczo0700.pfb
+eczo0800 EuropeanComputerModern-Regular800pt <eczo0800.pfb
+eczo0900 EuropeanComputerModern-Regular900pt <eczo0900.pfb
+eczo1000 EuropeanComputerModern-Regular1000pt <eczo1000.pfb
+eczo1095 EuropeanComputerModern-Regular1095pt <eczo1095.pfb
+eczo1200 EuropeanComputerModern-Regular1200pt <eczo1200.pfb
+eczo1440 EuropeanComputerModern-Regular1440pt <eczo1440.pfb
+eczo1728 EuropeanComputerModern-Regular1728pt <eczo1728.pfb
+eczo2074 EuropeanComputerModern-Regular2074pt <eczo2074.pfb
+eczo2488 EuropeanComputerModern-Regular2488pt <eczo2488.pfb
+eczo2986 EuropeanComputerModern-Regular2986pt <eczo2986.pfb
+eczo3583 EuropeanComputerModern-Regular3583pt <eczo3583.pfb
+eczx0500 EuropeanComputerModern-RegularExtended500pt <eczx0500.pfb
+eczx0600 EuropeanComputerModern-RegularExtended600pt <eczx0600.pfb
+eczx0700 EuropeanComputerModern-RegularExtended700pt <eczx0700.pfb
+eczx0800 EuropeanComputerModern-RegularExtended800pt <eczx0800.pfb
+eczx0900 EuropeanComputerModern-RegularExtended900pt <eczx0900.pfb
+eczx1000 EuropeanComputerModern-RegularExtended1000pt <eczx1000.pfb
+eczx1095 EuropeanComputerModern-RegularExtended1095pt <eczx1095.pfb
+eczx1200 EuropeanComputerModern-RegularExtended1200pt <eczx1200.pfb
+eczx1440 EuropeanComputerModern-RegularExtended1440pt <eczx1440.pfb
+eczx1728 EuropeanComputerModern-RegularExtended1728pt <eczx1728.pfb
+eczx2074 EuropeanComputerModern-RegularExtended2074pt <eczx2074.pfb
+eczx2488 EuropeanComputerModern-RegularExtended2488pt <eczx2488.pfb
+eczx2986 EuropeanComputerModern-RegularExtended2986pt <eczx2986.pfb
+eczx3583 EuropeanComputerModern-RegularExtended3583pt <eczx3583.pfb
+eczz0500 EuropeanComputerModern-Regular500pt <eczz0500.pfb
+eczz0600 EuropeanComputerModern-Regular600pt <eczz0600.pfb
+eczz0700 EuropeanComputerModern-Regular700pt <eczz0700.pfb
+eczz0800 EuropeanComputerModern-Regular800pt <eczz0800.pfb
+eczz0900 EuropeanComputerModern-Regular900pt <eczz0900.pfb
+eczz1000 EuropeanComputerModern-Regular1000pt <eczz1000.pfb
+eczz1095 EuropeanComputerModern-Regular1095pt <eczz1095.pfb
+eczz1200 EuropeanComputerModern-Regular1200pt <eczz1200.pfb
+eczz1440 EuropeanComputerModern-Regular1440pt <eczz1440.pfb
+eczz1728 EuropeanComputerModern-Regular1728pt <eczz1728.pfb
+eczz2074 EuropeanComputerModern-Regular2074pt <eczz2074.pfb
+eczz2488 EuropeanComputerModern-Regular2488pt <eczz2488.pfb
+eczz2986 EuropeanComputerModern-Regular2986pt <eczz2986.pfb
+eczz3583 EuropeanComputerModern-Regular3583pt <eczz3583.pfb

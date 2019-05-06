@@ -1,0 +1,14 @@
+(This file public domain, originally written by Karl Berry, 2010.)
+
+This directory contains the CMap and PDF Mapping resources distributed
+by Adobe, excluding the ones which are deprecated.
+
+This bundle was uploaded to CTAN by Hironobu Yamashita on 2019-04-02,
+based on cmap-resources 20190307 and mapping-resources-pdf 20190401.
+
+If questions about this redistribution, email tex-live@tug.org.  If
+questions or suggestions relating to the actual content of the files, see:
+  https://github.com/adobe-type-tools/cmap-resources
+  https://github.com/adobe-type-tools/mapping-resources-pdf
+
+Thanks to Ken Lunde at Adobe for making all this possible.

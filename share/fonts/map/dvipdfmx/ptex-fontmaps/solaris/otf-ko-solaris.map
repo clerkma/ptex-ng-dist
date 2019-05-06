@@ -1,0 +1,12 @@
+
+% CID
+otf-ckmr-h	Identity-H	h2mjsm.ttf/AK12 %!PS Myeongjo
+otf-ckmr-v	Identity-V	h2mjsm.ttf/AK12 %!PS Myeongjo
+otf-ckgr-h	Identity-H	h2gtrm.ttf/AK12 %!PS Gothic
+otf-ckgr-v	Identity-V	h2gtrm.ttf/AK12 %!PS Gothic
+
+% Unicode
+otf-ukmr-h	UniKS-UCS2-H	h2mjsm.ttf %!PS Myeongjo
+otf-ukmr-v	UniKS-UCS2-V	h2mjsm.ttf %!PS Myeongjo
+otf-ukgr-h	UniKS-UCS2-H	h2gtrm.ttf %!PS Gothic
+otf-ukgr-v	UniKS-UCS2-V	h2gtrm.ttf %!PS Gothic

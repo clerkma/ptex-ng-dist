@@ -1,0 +1,12 @@
+
+% CID
+otf-ctmr-h	Identity-H	bsmi00lp.ttf/AC14 %!PS ShanHeiSun-Light
+otf-ctmr-v	Identity-V	bsmi00lp.ttf/AC14 %!PS ShanHeiSun-Light
+otf-ctgr-h	Identity-H	bkai00mp.ttf/AC14 %!PS ZenKai-Medium
+otf-ctgr-v	Identity-V	bkai00mp.ttf/AC14 %!PS ZenKai-Medium
+
+% Unicode
+otf-utmr-h	UniCNS-UCS2-H	bsmi00lp.ttf %!PS ShanHeiSun-Light
+otf-utmr-v	UniCNS-UCS2-V	bsmi00lp.ttf %!PS ShanHeiSun-Light
+otf-utgr-h	UniCNS-UCS2-H	bkai00mp.ttf %!PS ZenKai-Medium
+otf-utgr-v	UniCNS-UCS2-V	bkai00mp.ttf %!PS ZenKai-Medium

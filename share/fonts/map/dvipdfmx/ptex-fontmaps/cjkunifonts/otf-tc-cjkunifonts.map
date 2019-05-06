@@ -1,0 +1,12 @@
+
+% CID
+otf-ctmr-h	Identity-H	:2:uming.ttc/AC14 %!PS UMingTW
+otf-ctmr-v	Identity-V	:2:uming.ttc/AC14 %!PS UMingTW
+otf-ctgr-h	Identity-H	:2:ukai.ttc/AC14 %!PS UKaiTW
+otf-ctgr-v	Identity-V	:2:ukai.ttc/AC14 %!PS UKaiTW
+
+% Unicode
+otf-utmr-h	UniCNS-UCS2-H	:2:uming.ttc %!PS UMingTW
+otf-utmr-v	UniCNS-UCS2-V	:2:uming.ttc %!PS UMingTW
+otf-utgr-h	UniCNS-UCS2-H	:2:ukai.ttc %!PS UKaiTW
+otf-utgr-v	UniCNS-UCS2-V	:2:ukai.ttc %!PS UKaiTW

@@ -1,0 +1,12 @@
+
+% CID
+otf-ckmr-h	Identity-H	!HYSMyeongJo-Medium
+otf-ckmr-v	Identity-V	!HYSMyeongJo-Medium
+otf-ckgr-h	Identity-H	!HYGoThic-Medium
+otf-ckgr-v	Identity-V	!HYGoThic-Medium
+
+% Unicode
+otf-ukmr-h	UniKS-UCS2-H	!HYSMyeongJo-Medium
+otf-ukmr-v	UniKS-UCS2-V	!HYSMyeongJo-Medium
+otf-ukgr-h	UniKS-UCS2-H	!HYGoThic-Medium
+otf-ukgr-v	UniKS-UCS2-V	!HYGoThic-Medium

@@ -1,0 +1,12 @@
+
+% CID
+otf-ckmr-h	Identity-H	AppleMyungjo.ttf/AK12
+otf-ckmr-v	Identity-V	AppleMyungjo.ttf/AK12
+otf-ckgr-h	Identity-H	AppleGothic.ttf/AK12
+otf-ckgr-v	Identity-V	AppleGothic.ttf/AK12
+
+% Unicode
+otf-ukmr-h	UniKS-UCS2-H	AppleMyungjo.ttf
+otf-ukmr-v	UniKS-UCS2-V	AppleMyungjo.ttf
+otf-ukgr-h	UniKS-UCS2-H	AppleGothic.ttf
+otf-ukgr-v	UniKS-UCS2-V	AppleGothic.ttf

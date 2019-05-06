@@ -1,0 +1,12 @@
+
+% CID
+otf-ctmr-h	Identity-H	!MSung-Light
+otf-ctmr-v	Identity-V	!MSung-Light
+otf-ctgr-h	Identity-H	!MHei-Medium
+otf-ctgr-v	Identity-V	!MHei-Medium
+
+% Unicode
+otf-utmr-h	unicode	NotoSerifCJKtc-Regular.otf %!DVIPSFB !MSung-Light-UniCNS-UCS2-H
+otf-utmr-v	unicode	NotoSerifCJKtc-Regular.otf -w 1 %!DVIPSFB !MSung-Light-UniCNS-UCS2-V
+otf-utgr-h	unicode	NotoSansCJKtc-Medium.otf %!DVIPSFB !MHei-Medium-UniCNS-UCS2-H
+otf-utgr-v	unicode	NotoSansCJKtc-Medium.otf -w 1 %!DVIPSFB !MHei-Medium-UniCNS-UCS2-V

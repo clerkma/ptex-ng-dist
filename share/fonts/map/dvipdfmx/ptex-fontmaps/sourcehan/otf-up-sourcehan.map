@@ -1,0 +1,32 @@
+
+% TEXT, 90JIS
+uphminl-h	unicode	SourceHanSerif-Light.otf -l jp90 %!DVIPSFB !Ryumin-Light-UniJIS-UTF16-H
+uphminl-v	unicode	SourceHanSerif-Light.otf -w 1 -l jp90 %!DVIPSFB !Ryumin-Light-UniJIS-UTF16-V
+uphminr-h	unicode	SourceHanSerif-Regular.otf -l jp90 %!DVIPSFB !Ryumin-Light-UniJIS-UTF16-H
+uphminr-v	unicode	SourceHanSerif-Regular.otf -w 1 -l jp90 %!DVIPSFB !Ryumin-Light-UniJIS-UTF16-V
+uphminb-h	unicode	SourceHanSerif-Bold.otf -l jp90 %!DVIPSFB !Ryumin-Light,Bold-UniJIS-UTF16-H
+uphminb-v	unicode	SourceHanSerif-Bold.otf -w 1 -l jp90 %!DVIPSFB !Ryumin-Light,Bold-UniJIS-UTF16-V
+uphgothr-h	unicode	SourceHanSans-Regular.otf -l jp90 %!DVIPSFB !GothicBBB-Medium-UniJIS-UTF16-H
+uphgothr-v	unicode	SourceHanSans-Regular.otf -w 1 -l jp90 %!DVIPSFB !GothicBBB-Medium-UniJIS-UTF16-V
+uphgothb-h	unicode	SourceHanSans-Bold.otf -l jp90 %!DVIPSFB !GothicBBB-Medium,Bold-UniJIS-UTF16-H
+uphgothb-v	unicode	SourceHanSans-Bold.otf -w 1 -l jp90 %!DVIPSFB !GothicBBB-Medium,Bold-UniJIS-UTF16-V
+uphgotheb-h	unicode	SourceHanSans-Heavy.otf -l jp90 %!DVIPSFB !GothicBBB-Medium,Bold-UniJIS-UTF16-H
+uphgotheb-v	unicode	SourceHanSans-Heavy.otf -w 1 -l jp90 %!DVIPSFB !GothicBBB-Medium,Bold-UniJIS-UTF16-V
+uphmgothr-h	unicode	SourceHanSans-Medium.otf -l jp90 %!DVIPSFB !GothicBBB-Medium-UniJIS-UTF16-H
+uphmgothr-v	unicode	SourceHanSans-Medium.otf -w 1 -l jp90 %!DVIPSFB !GothicBBB-Medium-UniJIS-UTF16-V
+
+% TEXT, JIS04
+uphminln-h	unicode	SourceHanSerif-Light.otf -l jp04 %!DVIPSFB !Ryumin-Light-UniJIS2004-UTF16-H
+uphminln-v	unicode	SourceHanSerif-Light.otf -w 1 -l jp04 %!DVIPSFB !Ryumin-Light-UniJIS2004-UTF16-V
+uphminrn-h	unicode	SourceHanSerif-Regular.otf -l jp04 %!DVIPSFB !Ryumin-Light-UniJIS2004-UTF16-H
+uphminrn-v	unicode	SourceHanSerif-Regular.otf -w 1 -l jp04 %!DVIPSFB !Ryumin-Light-UniJIS2004-UTF16-V
+uphminbn-h	unicode	SourceHanSerif-Bold.otf -l jp04 %!DVIPSFB !Ryumin-Light,Bold-UniJIS2004-UTF16-H
+uphminbn-v	unicode	SourceHanSerif-Bold.otf -w 1 -l jp04 %!DVIPSFB !Ryumin-Light,Bold-UniJIS2004-UTF16-V
+uphgothrn-h	unicode	SourceHanSans-Regular.otf -l jp04 %!DVIPSFB !GothicBBB-Medium-UniJIS2004-UTF16-H
+uphgothrn-v	unicode	SourceHanSans-Regular.otf -w 1 -l jp04 %!DVIPSFB !GothicBBB-Medium-UniJIS2004-UTF16-V
+uphgothbn-h	unicode	SourceHanSans-Bold.otf -l jp04 %!DVIPSFB !GothicBBB-Medium,Bold-UniJIS2004-UTF16-H
+uphgothbn-v	unicode	SourceHanSans-Bold.otf -w 1 -l jp04 %!DVIPSFB !GothicBBB-Medium,Bold-UniJIS2004-UTF16-V
+uphgothebn-h	unicode	SourceHanSans-Heavy.otf -l jp04 %!DVIPSFB !GothicBBB-Medium,Bold-UniJIS2004-UTF16-H
+uphgothebn-v	unicode	SourceHanSans-Heavy.otf -w 1 -l jp04 %!DVIPSFB !GothicBBB-Medium,Bold-UniJIS2004-UTF16-V
+uphmgothrn-h	unicode	SourceHanSans-Medium.otf -l jp04 %!DVIPSFB !GothicBBB-Medium-UniJIS2004-UTF16-H
+uphmgothrn-v	unicode	SourceHanSans-Medium.otf -w 1 -l jp04 %!DVIPSFB !GothicBBB-Medium-UniJIS2004-UTF16-V

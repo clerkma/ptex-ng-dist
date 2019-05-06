@@ -1,0 +1,10 @@
+urml	UniJIS-UTF16-H	:0:msmincho.ttc %!PS MS-Mincho
+urmlv	UniJIS-UTF16-V	:0:msmincho.ttc %!PS MS-Mincho
+ugbm	UniJIS-UTF16-H	:0:msgothic.ttc %!PS MS-Gothic
+ugbmv	UniJIS-UTF16-V	:0:msgothic.ttc %!PS MS-Gothic
+uprml-h	UniJIS-UTF16-H	:0:msmincho.ttc %!PS MS-Mincho
+uprml-v	UniJIS-UTF16-V	:0:msmincho.ttc %!PS MS-Mincho
+upgbm-h	UniJIS-UTF16-H	:0:msgothic.ttc %!PS MS-Gothic
+upgbm-v	UniJIS-UTF16-V	:0:msgothic.ttc %!PS MS-Gothic
+uprml-hq	UniJIS-UCS2-H	:0:msmincho.ttc %!PS MS-Mincho
+upgbm-hq	UniJIS-UCS2-H	:0:msgothic.ttc %!PS MS-Gothic

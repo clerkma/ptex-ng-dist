@@ -1,0 +1,12 @@
+
+% CID
+otf-ccmr-h	Identity-H	AdobeSongStd-Light.otf
+otf-ccmr-v	Identity-V	AdobeSongStd-Light.otf
+otf-ccgr-h	Identity-H	AdobeHeitiStd-Regular.otf
+otf-ccgr-v	Identity-V	AdobeHeitiStd-Regular.otf
+
+% Unicode
+otf-ucmr-h	UniGB-UCS2-H	AdobeSongStd-Light.otf
+otf-ucmr-v	UniGB-UCS2-V	AdobeSongStd-Light.otf
+otf-ucgr-h	UniGB-UCS2-H	AdobeHeitiStd-Regular.otf
+otf-ucgr-v	UniGB-UCS2-V	AdobeHeitiStd-Regular.otf

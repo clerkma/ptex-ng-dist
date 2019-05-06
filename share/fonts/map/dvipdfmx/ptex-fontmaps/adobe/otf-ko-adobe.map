@@ -1,0 +1,12 @@
+
+% CID
+otf-ckmr-h	Identity-H	AdobeMyungjoStd-Medium.otf
+otf-ckmr-v	Identity-V	AdobeMyungjoStd-Medium.otf
+otf-ckgr-h	Identity-H	AdobeGothicStd-Bold.otf
+otf-ckgr-v	Identity-V	AdobeGothicStd-Bold.otf
+
+% Unicode
+otf-ukmr-h	UniKS-UCS2-H	AdobeMyungjoStd-Medium.otf
+otf-ukmr-v	UniKS-UCS2-V	AdobeMyungjoStd-Medium.otf
+otf-ukgr-h	UniKS-UCS2-H	AdobeGothicStd-Bold.otf
+otf-ukgr-v	UniKS-UCS2-V	AdobeGothicStd-Bold.otf

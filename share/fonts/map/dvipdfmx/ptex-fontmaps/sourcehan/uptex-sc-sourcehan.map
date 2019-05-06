@@ -1,0 +1,4 @@
+upstsl-h	unicode	SourceHanSerifSC-Regular.otf %!DVIPSFB !STSong-Light-UniGB-UTF16-H
+upstsl-v	unicode	SourceHanSerifSC-Regular.otf -w 1 %!DVIPSFB !STSong-Light-UniGB-UTF16-V
+upstht-h	unicode	SourceHanSansSC-Medium.otf %!DVIPSFB !STHeiti-Regular-UniGB-UTF16-H
+upstht-v	unicode	SourceHanSansSC-Medium.otf -w 1 %!DVIPSFB !STHeiti-Regular-UniGB-UTF16-V

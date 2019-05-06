@@ -1,0 +1,12 @@
+
+% CID
+otf-ccmr-h	Identity-H	:0:simsun.ttc/AG14 %!PS SimSun
+otf-ccmr-v	Identity-V	:0:simsun.ttc/AG14 %!PS SimSun
+otf-ccgr-h	Identity-H	simhei.ttf/AG14 %!PS SimHei
+otf-ccgr-v	Identity-V	simhei.ttf/AG14 %!PS SimHei
+
+% Unicode
+otf-ucmr-h	UniGB-UCS2-H	:0:simsun.ttc %!PS SimSun
+otf-ucmr-v	UniGB-UCS2-V	:0:simsun.ttc %!PS SimSun
+otf-ucgr-h	UniGB-UCS2-H	simhei.ttf %!PS SimHei
+otf-ucgr-v	UniGB-UCS2-V	simhei.ttf %!PS SimHei

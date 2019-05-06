@@ -1,0 +1,10 @@
+urml	unicode	NotoSerifCJKjp-Regular.otf -l jp04 %!DVIPSFB !Ryumin-Light-UniJIS2004-UTF16-H
+urmlv	unicode	NotoSerifCJKjp-Regular.otf -w 1 -l jp04 %!DVIPSFB !Ryumin-Light-UniJIS2004-UTF16-V
+ugbm	unicode	NotoSansCJKjp-Medium.otf -l jp04 %!DVIPSFB !GothicBBB-Medium-UniJIS2004-UTF16-H
+ugbmv	unicode	NotoSansCJKjp-Medium.otf -w 1 -l jp04 %!DVIPSFB !GothicBBB-Medium-UniJIS2004-UTF16-V
+uprml-h	unicode	NotoSerifCJKjp-Regular.otf -l jp04 %!DVIPSFB !Ryumin-Light-UniJIS2004-UTF16-H
+uprml-v	unicode	NotoSerifCJKjp-Regular.otf -w 1 -l jp04 %!DVIPSFB !Ryumin-Light-UniJIS2004-UTF16-V
+upgbm-h	unicode	NotoSansCJKjp-Medium.otf -l jp04 %!DVIPSFB !GothicBBB-Medium-UniJIS2004-UTF16-H
+upgbm-v	unicode	NotoSansCJKjp-Medium.otf -w 1 -l jp04 %!DVIPSFB !GothicBBB-Medium-UniJIS2004-UTF16-V
+uprml-hq	unicode	NotoSerifCJKjp-Regular.otf -l fwid %!DVIPSFB !Ryumin-Light-UniJIS-UCS2-H
+upgbm-hq	unicode	NotoSansCJKjp-Medium.otf -l fwid %!DVIPSFB !GothicBBB-Medium-UniJIS-UCS2-H

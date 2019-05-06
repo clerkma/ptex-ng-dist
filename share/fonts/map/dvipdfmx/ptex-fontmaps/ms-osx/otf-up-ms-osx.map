@@ -1,0 +1,32 @@
+
+% TEXT, 90JIS
+uphminl-h	UniJIS-UTF16-H	MS-Mincho.ttf
+uphminl-v	UniJIS-UTF16-V	MS-Mincho.ttf
+uphminr-h	UniJIS-UTF16-H	MS-Mincho.ttf
+uphminr-v	UniJIS-UTF16-V	MS-Mincho.ttf
+uphminb-h	UniJIS-UTF16-H	MS-Mincho.ttf
+uphminb-v	UniJIS-UTF16-V	MS-Mincho.ttf
+uphgothr-h	UniJIS-UTF16-H	MS-Gothic.ttf
+uphgothr-v	UniJIS-UTF16-V	MS-Gothic.ttf
+uphgothb-h	UniJIS-UTF16-H	MS-Gothic.ttf
+uphgothb-v	UniJIS-UTF16-V	MS-Gothic.ttf
+uphgotheb-h	UniJIS-UTF16-H	MS-Gothic.ttf
+uphgotheb-v	UniJIS-UTF16-V	MS-Gothic.ttf
+uphmgothr-h	UniJIS-UTF16-H	MS-Gothic.ttf
+uphmgothr-v	UniJIS-UTF16-V	MS-Gothic.ttf
+
+% TEXT, JIS04
+uphminln-h	UniJIS2004-UTF16-H	MS-Mincho.ttf
+uphminln-v	UniJIS2004-UTF16-V	MS-Mincho.ttf
+uphminrn-h	UniJIS2004-UTF16-H	MS-Mincho.ttf
+uphminrn-v	UniJIS2004-UTF16-V	MS-Mincho.ttf
+uphminbn-h	UniJIS2004-UTF16-H	MS-Mincho.ttf
+uphminbn-v	UniJIS2004-UTF16-V	MS-Mincho.ttf
+uphgothrn-h	UniJIS2004-UTF16-H	MS-Gothic.ttf
+uphgothrn-v	UniJIS2004-UTF16-V	MS-Gothic.ttf
+uphgothbn-h	UniJIS2004-UTF16-H	MS-Gothic.ttf
+uphgothbn-v	UniJIS2004-UTF16-V	MS-Gothic.ttf
+uphgothebn-h	UniJIS2004-UTF16-H	MS-Gothic.ttf
+uphgothebn-v	UniJIS2004-UTF16-V	MS-Gothic.ttf
+uphmgothrn-h	UniJIS2004-UTF16-H	MS-Gothic.ttf
+uphmgothrn-v	UniJIS2004-UTF16-V	MS-Gothic.ttf

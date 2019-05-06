@@ -1,0 +1,32 @@
+
+% TEXT, 90JIS
+uphminl-h	UniJIS-UTF16-H	ume-tmo3.ttf %!PS Ume-Mincho
+uphminl-v	UniJIS-UTF16-V	ume-tmo3.ttf %!PS Ume-Mincho
+uphminr-h	UniJIS-UTF16-H	ume-tmo3.ttf %!PS Ume-Mincho
+uphminr-v	UniJIS-UTF16-V	ume-tmo3.ttf %!PS Ume-Mincho
+uphminb-h	UniJIS-UTF16-H	ume-tmo3.ttf %!PS Ume-Mincho
+uphminb-v	UniJIS-UTF16-V	ume-tmo3.ttf %!PS Ume-Mincho
+uphgothr-h	UniJIS-UTF16-H	ume-tgo4.ttf %!PS Ume-Gothic
+uphgothr-v	UniJIS-UTF16-V	ume-tgo4.ttf %!PS Ume-Gothic
+uphgothb-h	UniJIS-UTF16-H	ume-tgo5.ttf %!PS Ume-Gothic-O5
+uphgothb-v	UniJIS-UTF16-V	ume-tgo5.ttf %!PS Ume-Gothic-O5
+uphgotheb-h	UniJIS-UTF16-H	ume-tgo5.ttf %!PS Ume-Gothic-O5
+uphgotheb-v	UniJIS-UTF16-V	ume-tgo5.ttf %!PS Ume-Gothic-O5
+uphmgothr-h	UniJIS-UTF16-H	ume-tgo4.ttf %!PS Ume-Gothic
+uphmgothr-v	UniJIS-UTF16-V	ume-tgo4.ttf %!PS Ume-Gothic
+
+% TEXT, JIS04
+uphminln-h	UniJIS2004-UTF16-H	ume-tmo3.ttf %!PS Ume-Mincho
+uphminln-v	UniJIS2004-UTF16-V	ume-tmo3.ttf %!PS Ume-Mincho
+uphminrn-h	UniJIS2004-UTF16-H	ume-tmo3.ttf %!PS Ume-Mincho
+uphminrn-v	UniJIS2004-UTF16-V	ume-tmo3.ttf %!PS Ume-Mincho
+uphminbn-h	UniJIS2004-UTF16-H	ume-tmo3.ttf %!PS Ume-Mincho
+uphminbn-v	UniJIS2004-UTF16-V	ume-tmo3.ttf %!PS Ume-Mincho
+uphgothrn-h	UniJIS2004-UTF16-H	ume-tgo4.ttf %!PS Ume-Gothic
+uphgothrn-v	UniJIS2004-UTF16-V	ume-tgo4.ttf %!PS Ume-Gothic
+uphgothbn-h	UniJIS2004-UTF16-H	ume-tgo5.ttf %!PS Ume-Gothic-O5
+uphgothbn-v	UniJIS2004-UTF16-V	ume-tgo5.ttf %!PS Ume-Gothic-O5
+uphgothebn-h	UniJIS2004-UTF16-H	ume-tgo5.ttf %!PS Ume-Gothic-O5
+uphgothebn-v	UniJIS2004-UTF16-V	ume-tgo5.ttf %!PS Ume-Gothic-O5
+uphmgothrn-h	UniJIS2004-UTF16-H	ume-tgo4.ttf %!PS Ume-Gothic
+uphmgothrn-v	UniJIS2004-UTF16-V	ume-tgo4.ttf %!PS Ume-Gothic

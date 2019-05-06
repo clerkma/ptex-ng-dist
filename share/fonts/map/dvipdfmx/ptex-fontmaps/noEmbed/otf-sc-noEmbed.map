@@ -1,0 +1,12 @@
+
+% CID
+otf-ccmr-h	Identity-H	!STSong-Light
+otf-ccmr-v	Identity-V	!STSong-Light
+otf-ccgr-h	Identity-H	!STHeiti-Regular
+otf-ccgr-v	Identity-V	!STHeiti-Regular
+
+% Unicode
+otf-ucmr-h	UniGB-UCS2-H	!STSong-Light
+otf-ucmr-v	UniGB-UCS2-V	!STSong-Light
+otf-ucgr-h	UniGB-UCS2-H	!STHeiti-Regular
+otf-ucgr-v	UniGB-UCS2-V	!STHeiti-Regular

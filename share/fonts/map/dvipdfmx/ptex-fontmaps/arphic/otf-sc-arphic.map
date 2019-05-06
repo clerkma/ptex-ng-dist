@@ -1,0 +1,12 @@
+
+% CID
+otf-ccmr-h	Identity-H	gbsn00lp.ttf/AG14 %!PS BousungEG-Light-GB
+otf-ccmr-v	Identity-V	gbsn00lp.ttf/AG14 %!PS BousungEG-Light-GB
+otf-ccgr-h	Identity-H	gkai00mp.ttf/AG14 %!PS GBZenKai-Medium
+otf-ccgr-v	Identity-V	gkai00mp.ttf/AG14 %!PS GBZenKai-Medium
+
+% Unicode
+otf-ucmr-h	UniGB-UCS2-H	gbsn00lp.ttf %!PS BousungEG-Light-GB
+otf-ucmr-v	UniGB-UCS2-V	gbsn00lp.ttf %!PS BousungEG-Light-GB
+otf-ucgr-h	UniGB-UCS2-H	gkai00mp.ttf %!PS GBZenKai-Medium
+otf-ucgr-v	UniGB-UCS2-V	gkai00mp.ttf %!PS GBZenKai-Medium

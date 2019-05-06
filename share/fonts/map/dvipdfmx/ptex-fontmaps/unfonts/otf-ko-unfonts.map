@@ -1,0 +1,12 @@
+
+% CID
+otf-ckmr-h	Identity-H	UnBatang.ttf/AK12
+otf-ckmr-v	Identity-V	UnBatang.ttf/AK12
+otf-ckgr-h	Identity-H	UnDotum.ttf/AK12
+otf-ckgr-v	Identity-V	UnDotum.ttf/AK12
+
+% Unicode
+otf-ukmr-h	UniKS-UCS2-H	UnBatang.ttf
+otf-ukmr-v	UniKS-UCS2-V	UnBatang.ttf
+otf-ukgr-h	UniKS-UCS2-H	UnDotum.ttf
+otf-ukgr-v	UniKS-UCS2-V	UnDotum.ttf

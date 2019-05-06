@@ -1,0 +1,7 @@
+% beuron.map
+% Map-Datei zur Benutzung der Type-1-Version der Beuroner Schriften
+% Map file for the use of the Type 1 version of the Beuron fonts
+% 27. Dezember 2017
+beuronc BeuronCondensed-Regular <beuronc.pfb
+beuron Beuron-Regular <beuron.pfb
+beuronx BeuronExtended-Regular <beuronx.pfb

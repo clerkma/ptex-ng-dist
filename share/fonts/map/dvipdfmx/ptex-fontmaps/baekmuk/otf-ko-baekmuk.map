@@ -1,0 +1,12 @@
+
+% CID
+otf-ckmr-h	Identity-H	batang.ttf/AK12 %!PS Baekmuk-Batang
+otf-ckmr-v	Identity-V	batang.ttf/AK12 %!PS Baekmuk-Batang
+otf-ckgr-h	Identity-H	dotum.ttf/AK12 %!PS Baekmuk-Dotum
+otf-ckgr-v	Identity-V	dotum.ttf/AK12 %!PS Baekmuk-Dotum
+
+% Unicode
+otf-ukmr-h	UniKS-UCS2-H	batang.ttf %!PS Baekmuk-Batang
+otf-ukmr-v	UniKS-UCS2-V	batang.ttf %!PS Baekmuk-Batang
+otf-ukgr-h	UniKS-UCS2-H	dotum.ttf %!PS Baekmuk-Dotum
+otf-ukgr-v	UniKS-UCS2-V	dotum.ttf %!PS Baekmuk-Dotum

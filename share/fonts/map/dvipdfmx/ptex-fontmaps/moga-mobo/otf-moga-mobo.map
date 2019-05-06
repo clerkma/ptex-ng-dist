@@ -1,0 +1,80 @@
+
+% TEXT, 90JIS
+hminl-h	H	:3:mogam.ttc %!PS Moga90Mincho-Regular
+hminl-v	V	:3:mogam.ttc %!PS Moga90Mincho-Regular
+hminr-h	H	:3:mogam.ttc %!PS Moga90Mincho-Regular
+hminr-v	V	:3:mogam.ttc %!PS Moga90Mincho-Regular
+hminb-h	H	:2:mogamb.ttc %!PS Moga90Mincho-Bold
+hminb-v	V	:2:mogamb.ttc %!PS Moga90Mincho-Bold
+hgothr-h	H	:2:mogag.ttc %!PS Moga90Gothic-Regular
+hgothr-v	V	:2:mogag.ttc %!PS Moga90Gothic-Regular
+hgothb-h	H	:2:mogagb.ttc %!PS Moga90Gothic-Bold
+hgothb-v	V	:2:mogagb.ttc %!PS Moga90Gothic-Bold
+hgotheb-h	H	:2:mogagb.ttc %!PS Moga90Gothic-Bold
+hgotheb-v	V	:2:mogagb.ttc %!PS Moga90Gothic-Bold
+hmgothr-h	H	:2:mobog.ttc %!PS Mobo90Gothic-Regular
+hmgothr-v	V	:2:mobog.ttc %!PS Mobo90Gothic-Regular
+
+% TEXT, JIS04
+hminln-h	H	:0:mogam.ttc %!PS MogaMincho-Regular
+hminln-v	V	:0:mogam.ttc %!PS MogaMincho-Regular
+hminrn-h	H	:0:mogam.ttc %!PS MogaMincho-Regular
+hminrn-v	V	:0:mogam.ttc %!PS MogaMincho-Regular
+hminbn-h	H	:0:mogamb.ttc %!PS MogaMincho-Bold
+hminbn-v	V	:0:mogamb.ttc %!PS MogaMincho-Bold
+hgothrn-h	H	:0:mogag.ttc %!PS MogaGothic-Regular
+hgothrn-v	V	:0:mogag.ttc %!PS MogaGothic-Regular
+hgothbn-h	H	:0:mogagb.ttc %!PS MogaGothic-Bold
+hgothbn-v	V	:0:mogagb.ttc %!PS MogaGothic-Bold
+hgothebn-h	H	:0:mogagb.ttc %!PS MogaGothic-Bold
+hgothebn-v	V	:0:mogagb.ttc %!PS MogaGothic-Bold
+hmgothrn-h	H	:0:mobog.ttc %!PS MoboGothic-Regular
+hmgothrn-v	V	:0:mobog.ttc %!PS MoboGothic-Regular
+
+% CID
+otf-cjml-h	Identity-H	:0:mogam.ttc/AJ16 %!PS MogaMincho-Regular
+otf-cjml-v	Identity-V	:0:mogam.ttc/AJ16 %!PS MogaMincho-Regular
+otf-cjmr-h	Identity-H	:0:mogam.ttc/AJ16 %!PS MogaMincho-Regular
+otf-cjmr-v	Identity-V	:0:mogam.ttc/AJ16 %!PS MogaMincho-Regular
+otf-cjmb-h	Identity-H	:0:mogamb.ttc/AJ16 %!PS MogaMincho-Bold
+otf-cjmb-v	Identity-V	:0:mogamb.ttc/AJ16 %!PS MogaMincho-Bold
+otf-cjgr-h	Identity-H	:0:mogag.ttc/AJ16 %!PS MogaGothic-Regular
+otf-cjgr-v	Identity-V	:0:mogag.ttc/AJ16 %!PS MogaGothic-Regular
+otf-cjgb-h	Identity-H	:0:mogagb.ttc/AJ16 %!PS MogaGothic-Bold
+otf-cjgb-v	Identity-V	:0:mogagb.ttc/AJ16 %!PS MogaGothic-Bold
+otf-cjge-h	Identity-H	:0:mogagb.ttc/AJ16 %!PS MogaGothic-Bold
+otf-cjge-v	Identity-V	:0:mogagb.ttc/AJ16 %!PS MogaGothic-Bold
+otf-cjmgr-h	Identity-H	:0:mobog.ttc/AJ16 %!PS MoboGothic-Regular
+otf-cjmgr-v	Identity-V	:0:mobog.ttc/AJ16 %!PS MoboGothic-Regular
+
+% Unicode 90JIS
+otf-ujml-h	UniJIS-UTF16-H	:3:mogam.ttc %!PS Moga90Mincho-Regular
+otf-ujml-v	UniJIS-UTF16-V	:3:mogam.ttc %!PS Moga90Mincho-Regular
+otf-ujmr-h	UniJIS-UTF16-H	:3:mogam.ttc %!PS Moga90Mincho-Regular
+otf-ujmr-v	UniJIS-UTF16-V	:3:mogam.ttc %!PS Moga90Mincho-Regular
+otf-ujmb-h	UniJIS-UTF16-H	:2:mogamb.ttc %!PS Moga90Mincho-Bold
+otf-ujmb-v	UniJIS-UTF16-V	:2:mogamb.ttc %!PS Moga90Mincho-Bold
+otf-ujgr-h	UniJIS-UTF16-H	:2:mogag.ttc %!PS Moga90Gothic-Regular
+otf-ujgr-v	UniJIS-UTF16-V	:2:mogag.ttc %!PS Moga90Gothic-Regular
+otf-ujgb-h	UniJIS-UTF16-H	:2:mogagb.ttc %!PS Moga90Gothic-Bold
+otf-ujgb-v	UniJIS-UTF16-V	:2:mogagb.ttc %!PS Moga90Gothic-Bold
+otf-ujge-h	UniJIS-UTF16-H	:2:mogagb.ttc %!PS Moga90Gothic-Bold
+otf-ujge-v	UniJIS-UTF16-V	:2:mogagb.ttc %!PS Moga90Gothic-Bold
+otf-ujmgr-h	UniJIS-UTF16-H	:2:mobog.ttc %!PS Mobo90Gothic-Regular
+otf-ujmgr-v	UniJIS-UTF16-V	:2:mobog.ttc %!PS Mobo90Gothic-Regular
+
+% Unicode JIS04
+otf-ujmln-h	UniJIS2004-UTF16-H	:0:mogam.ttc %!PS MogaMincho-Regular
+otf-ujmln-v	UniJIS2004-UTF16-V	:0:mogam.ttc %!PS MogaMincho-Regular
+otf-ujmrn-h	UniJIS2004-UTF16-H	:0:mogam.ttc %!PS MogaMincho-Regular
+otf-ujmrn-v	UniJIS2004-UTF16-V	:0:mogam.ttc %!PS MogaMincho-Regular
+otf-ujmbn-h	UniJIS2004-UTF16-H	:0:mogamb.ttc %!PS MogaMincho-Bold
+otf-ujmbn-v	UniJIS2004-UTF16-V	:0:mogamb.ttc %!PS MogaMincho-Bold
+otf-ujgrn-h	UniJIS2004-UTF16-H	:0:mogag.ttc %!PS MogaGothic-Regular
+otf-ujgrn-v	UniJIS2004-UTF16-V	:0:mogag.ttc %!PS MogaGothic-Regular
+otf-ujgbn-h	UniJIS2004-UTF16-H	:0:mogagb.ttc %!PS MogaGothic-Bold
+otf-ujgbn-v	UniJIS2004-UTF16-V	:0:mogagb.ttc %!PS MogaGothic-Bold
+otf-ujgen-h	UniJIS2004-UTF16-H	:0:mogagb.ttc %!PS MogaGothic-Bold
+otf-ujgen-v	UniJIS2004-UTF16-V	:0:mogagb.ttc %!PS MogaGothic-Bold
+otf-ujmgrn-h	UniJIS2004-UTF16-H	:0:mobog.ttc %!PS MoboGothic-Regular
+otf-ujmgrn-v	UniJIS2004-UTF16-V	:0:mobog.ttc %!PS MoboGothic-Regular

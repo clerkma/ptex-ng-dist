@@ -1,0 +1,4 @@
+upmsl-h	unicode	NotoSerifCJKtc-Regular.otf %!DVIPSFB !MSung-Light-UniCNS-UTF16-H
+upmsl-v	unicode	NotoSerifCJKtc-Regular.otf -w 1 %!DVIPSFB !MSung-Light-UniCNS-UTF16-V
+upmhm-h	unicode	NotoSansCJKtc-Medium.otf %!DVIPSFB !MHei-Medium-UniCNS-UTF16-H
+upmhm-v	unicode	NotoSansCJKtc-Medium.otf -w 1 %!DVIPSFB !MHei-Medium-UniCNS-UTF16-V

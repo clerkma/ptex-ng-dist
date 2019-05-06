@@ -1,0 +1,12 @@
+
+% CID
+otf-ckmr-h	Identity-H	:1:batang.ttc/AK12 %!PS BatangChe
+otf-ckmr-v	Identity-V	:1:batang.ttc/AK12 %!PS BatangChe
+otf-ckgr-h	Identity-H	:3:gulim.ttc/AK12 %!PS DotumChe
+otf-ckgr-v	Identity-V	:3:gulim.ttc/AK12 %!PS DotumChe
+
+% Unicode
+otf-ukmr-h	UniKS-UCS2-H	:1:batang.ttc %!PS BatangChe
+otf-ukmr-v	UniKS-UCS2-V	:1:batang.ttc %!PS BatangChe
+otf-ukgr-h	UniKS-UCS2-H	:3:gulim.ttc %!PS DotumChe
+otf-ukgr-v	UniKS-UCS2-V	:3:gulim.ttc %!PS DotumChe

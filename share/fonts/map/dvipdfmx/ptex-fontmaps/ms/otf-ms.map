@@ -1,0 +1,80 @@
+
+% TEXT, 90JIS
+hminl-h	H	:0:msmincho.ttc %!PS MS-Mincho
+hminl-v	V	:0:msmincho.ttc %!PS MS-Mincho
+hminr-h	H	:0:msmincho.ttc %!PS MS-Mincho
+hminr-v	V	:0:msmincho.ttc %!PS MS-Mincho
+hminb-h	H	:0:msmincho.ttc %!PS MS-Mincho
+hminb-v	V	:0:msmincho.ttc %!PS MS-Mincho
+hgothr-h	H	:0:msgothic.ttc %!PS MS-Gothic
+hgothr-v	V	:0:msgothic.ttc %!PS MS-Gothic
+hgothb-h	H	:0:msgothic.ttc %!PS MS-Gothic
+hgothb-v	V	:0:msgothic.ttc %!PS MS-Gothic
+hgotheb-h	H	:0:msgothic.ttc %!PS MS-Gothic
+hgotheb-v	V	:0:msgothic.ttc %!PS MS-Gothic
+hmgothr-h	H	:0:msgothic.ttc %!PS MS-Gothic
+hmgothr-v	V	:0:msgothic.ttc %!PS MS-Gothic
+
+% TEXT, JIS04
+hminln-h	H	:0:msmincho.ttc %!PS MS-Mincho
+hminln-v	V	:0:msmincho.ttc %!PS MS-Mincho
+hminrn-h	H	:0:msmincho.ttc %!PS MS-Mincho
+hminrn-v	V	:0:msmincho.ttc %!PS MS-Mincho
+hminbn-h	H	:0:msmincho.ttc %!PS MS-Mincho
+hminbn-v	V	:0:msmincho.ttc %!PS MS-Mincho
+hgothrn-h	H	:0:msgothic.ttc %!PS MS-Gothic
+hgothrn-v	V	:0:msgothic.ttc %!PS MS-Gothic
+hgothbn-h	H	:0:msgothic.ttc %!PS MS-Gothic
+hgothbn-v	V	:0:msgothic.ttc %!PS MS-Gothic
+hgothebn-h	H	:0:msgothic.ttc %!PS MS-Gothic
+hgothebn-v	V	:0:msgothic.ttc %!PS MS-Gothic
+hmgothrn-h	H	:0:msgothic.ttc %!PS MS-Gothic
+hmgothrn-v	V	:0:msgothic.ttc %!PS MS-Gothic
+
+% CID
+otf-cjml-h	Identity-H	:0:msmincho.ttc/AJ16 %!PS MS-Mincho
+otf-cjml-v	Identity-V	:0:msmincho.ttc/AJ16 %!PS MS-Mincho
+otf-cjmr-h	Identity-H	:0:msmincho.ttc/AJ16 %!PS MS-Mincho
+otf-cjmr-v	Identity-V	:0:msmincho.ttc/AJ16 %!PS MS-Mincho
+otf-cjmb-h	Identity-H	:0:msmincho.ttc/AJ16 %!PS MS-Mincho
+otf-cjmb-v	Identity-V	:0:msmincho.ttc/AJ16 %!PS MS-Mincho
+otf-cjgr-h	Identity-H	:0:msgothic.ttc/AJ16 %!PS MS-Gothic
+otf-cjgr-v	Identity-V	:0:msgothic.ttc/AJ16 %!PS MS-Gothic
+otf-cjgb-h	Identity-H	:0:msgothic.ttc/AJ16 %!PS MS-Gothic
+otf-cjgb-v	Identity-V	:0:msgothic.ttc/AJ16 %!PS MS-Gothic
+otf-cjge-h	Identity-H	:0:msgothic.ttc/AJ16 %!PS MS-Gothic
+otf-cjge-v	Identity-V	:0:msgothic.ttc/AJ16 %!PS MS-Gothic
+otf-cjmgr-h	Identity-H	:0:msgothic.ttc/AJ16 %!PS MS-Gothic
+otf-cjmgr-v	Identity-V	:0:msgothic.ttc/AJ16 %!PS MS-Gothic
+
+% Unicode 90JIS
+otf-ujml-h	UniJIS-UTF16-H	:0:msmincho.ttc %!PS MS-Mincho
+otf-ujml-v	UniJIS-UTF16-V	:0:msmincho.ttc %!PS MS-Mincho
+otf-ujmr-h	UniJIS-UTF16-H	:0:msmincho.ttc %!PS MS-Mincho
+otf-ujmr-v	UniJIS-UTF16-V	:0:msmincho.ttc %!PS MS-Mincho
+otf-ujmb-h	UniJIS-UTF16-H	:0:msmincho.ttc %!PS MS-Mincho
+otf-ujmb-v	UniJIS-UTF16-V	:0:msmincho.ttc %!PS MS-Mincho
+otf-ujgr-h	UniJIS-UTF16-H	:0:msgothic.ttc %!PS MS-Gothic
+otf-ujgr-v	UniJIS-UTF16-V	:0:msgothic.ttc %!PS MS-Gothic
+otf-ujgb-h	UniJIS-UTF16-H	:0:msgothic.ttc %!PS MS-Gothic
+otf-ujgb-v	UniJIS-UTF16-V	:0:msgothic.ttc %!PS MS-Gothic
+otf-ujge-h	UniJIS-UTF16-H	:0:msgothic.ttc %!PS MS-Gothic
+otf-ujge-v	UniJIS-UTF16-V	:0:msgothic.ttc %!PS MS-Gothic
+otf-ujmgr-h	UniJIS-UTF16-H	:0:msgothic.ttc %!PS MS-Gothic
+otf-ujmgr-v	UniJIS-UTF16-V	:0:msgothic.ttc %!PS MS-Gothic
+
+% Unicode JIS04
+otf-ujmln-h	UniJIS2004-UTF16-H	:0:msmincho.ttc %!PS MS-Mincho
+otf-ujmln-v	UniJIS2004-UTF16-V	:0:msmincho.ttc %!PS MS-Mincho
+otf-ujmrn-h	UniJIS2004-UTF16-H	:0:msmincho.ttc %!PS MS-Mincho
+otf-ujmrn-v	UniJIS2004-UTF16-V	:0:msmincho.ttc %!PS MS-Mincho
+otf-ujmbn-h	UniJIS2004-UTF16-H	:0:msmincho.ttc %!PS MS-Mincho
+otf-ujmbn-v	UniJIS2004-UTF16-V	:0:msmincho.ttc %!PS MS-Mincho
+otf-ujgrn-h	UniJIS2004-UTF16-H	:0:msgothic.ttc %!PS MS-Gothic
+otf-ujgrn-v	UniJIS2004-UTF16-V	:0:msgothic.ttc %!PS MS-Gothic
+otf-ujgbn-h	UniJIS2004-UTF16-H	:0:msgothic.ttc %!PS MS-Gothic
+otf-ujgbn-v	UniJIS2004-UTF16-V	:0:msgothic.ttc %!PS MS-Gothic
+otf-ujgen-h	UniJIS2004-UTF16-H	:0:msgothic.ttc %!PS MS-Gothic
+otf-ujgen-v	UniJIS2004-UTF16-V	:0:msgothic.ttc %!PS MS-Gothic
+otf-ujmgrn-h	UniJIS2004-UTF16-H	:0:msgothic.ttc %!PS MS-Gothic
+otf-ujmgrn-v	UniJIS2004-UTF16-V	:0:msgothic.ttc %!PS MS-Gothic

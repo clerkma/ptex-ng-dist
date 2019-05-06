@@ -1,0 +1,80 @@
+
+% TEXT, 90JIS
+hminl-h	H	ume-tmo3.ttf %!PS Ume-Mincho
+hminl-v	V	ume-tmo3.ttf %!PS Ume-Mincho
+hminr-h	H	ume-tmo3.ttf %!PS Ume-Mincho
+hminr-v	V	ume-tmo3.ttf %!PS Ume-Mincho
+hminb-h	H	ume-tmo3.ttf %!PS Ume-Mincho
+hminb-v	V	ume-tmo3.ttf %!PS Ume-Mincho
+hgothr-h	H	ume-tgo4.ttf %!PS Ume-Gothic
+hgothr-v	V	ume-tgo4.ttf %!PS Ume-Gothic
+hgothb-h	H	ume-tgo5.ttf %!PS Ume-Gothic-O5
+hgothb-v	V	ume-tgo5.ttf %!PS Ume-Gothic-O5
+hgotheb-h	H	ume-tgo5.ttf %!PS Ume-Gothic-O5
+hgotheb-v	V	ume-tgo5.ttf %!PS Ume-Gothic-O5
+hmgothr-h	H	ume-tgo4.ttf %!PS Ume-Gothic
+hmgothr-v	V	ume-tgo4.ttf %!PS Ume-Gothic
+
+% TEXT, JIS04
+hminln-h	H	ume-tmo3.ttf %!PS Ume-Mincho
+hminln-v	V	ume-tmo3.ttf %!PS Ume-Mincho
+hminrn-h	H	ume-tmo3.ttf %!PS Ume-Mincho
+hminrn-v	V	ume-tmo3.ttf %!PS Ume-Mincho
+hminbn-h	H	ume-tmo3.ttf %!PS Ume-Mincho
+hminbn-v	V	ume-tmo3.ttf %!PS Ume-Mincho
+hgothrn-h	H	ume-tgo4.ttf %!PS Ume-Gothic
+hgothrn-v	V	ume-tgo4.ttf %!PS Ume-Gothic
+hgothbn-h	H	ume-tgo5.ttf %!PS Ume-Gothic-O5
+hgothbn-v	V	ume-tgo5.ttf %!PS Ume-Gothic-O5
+hgothebn-h	H	ume-tgo5.ttf %!PS Ume-Gothic-O5
+hgothebn-v	V	ume-tgo5.ttf %!PS Ume-Gothic-O5
+hmgothrn-h	H	ume-tgo4.ttf %!PS Ume-Gothic
+hmgothrn-v	V	ume-tgo4.ttf %!PS Ume-Gothic
+
+% CID
+otf-cjml-h	Identity-H	ume-tmo3.ttf/AJ16 %!PS Ume-Mincho
+otf-cjml-v	Identity-V	ume-tmo3.ttf/AJ16 %!PS Ume-Mincho
+otf-cjmr-h	Identity-H	ume-tmo3.ttf/AJ16 %!PS Ume-Mincho
+otf-cjmr-v	Identity-V	ume-tmo3.ttf/AJ16 %!PS Ume-Mincho
+otf-cjmb-h	Identity-H	ume-tmo3.ttf/AJ16 %!PS Ume-Mincho
+otf-cjmb-v	Identity-V	ume-tmo3.ttf/AJ16 %!PS Ume-Mincho
+otf-cjgr-h	Identity-H	ume-tgo4.ttf/AJ16 %!PS Ume-Gothic
+otf-cjgr-v	Identity-V	ume-tgo4.ttf/AJ16 %!PS Ume-Gothic
+otf-cjgb-h	Identity-H	ume-tgo5.ttf/AJ16 %!PS Ume-Gothic-O5
+otf-cjgb-v	Identity-V	ume-tgo5.ttf/AJ16 %!PS Ume-Gothic-O5
+otf-cjge-h	Identity-H	ume-tgo5.ttf/AJ16 %!PS Ume-Gothic-O5
+otf-cjge-v	Identity-V	ume-tgo5.ttf/AJ16 %!PS Ume-Gothic-O5
+otf-cjmgr-h	Identity-H	ume-tgo4.ttf/AJ16 %!PS Ume-Gothic
+otf-cjmgr-v	Identity-V	ume-tgo4.ttf/AJ16 %!PS Ume-Gothic
+
+% Unicode 90JIS
+otf-ujml-h	UniJIS-UTF16-H	ume-tmo3.ttf %!PS Ume-Mincho
+otf-ujml-v	UniJIS-UTF16-V	ume-tmo3.ttf %!PS Ume-Mincho
+otf-ujmr-h	UniJIS-UTF16-H	ume-tmo3.ttf %!PS Ume-Mincho
+otf-ujmr-v	UniJIS-UTF16-V	ume-tmo3.ttf %!PS Ume-Mincho
+otf-ujmb-h	UniJIS-UTF16-H	ume-tmo3.ttf %!PS Ume-Mincho
+otf-ujmb-v	UniJIS-UTF16-V	ume-tmo3.ttf %!PS Ume-Mincho
+otf-ujgr-h	UniJIS-UTF16-H	ume-tgo4.ttf %!PS Ume-Gothic
+otf-ujgr-v	UniJIS-UTF16-V	ume-tgo4.ttf %!PS Ume-Gothic
+otf-ujgb-h	UniJIS-UTF16-H	ume-tgo5.ttf %!PS Ume-Gothic-O5
+otf-ujgb-v	UniJIS-UTF16-V	ume-tgo5.ttf %!PS Ume-Gothic-O5
+otf-ujge-h	UniJIS-UTF16-H	ume-tgo5.ttf %!PS Ume-Gothic-O5
+otf-ujge-v	UniJIS-UTF16-V	ume-tgo5.ttf %!PS Ume-Gothic-O5
+otf-ujmgr-h	UniJIS-UTF16-H	ume-tgo4.ttf %!PS Ume-Gothic
+otf-ujmgr-v	UniJIS-UTF16-V	ume-tgo4.ttf %!PS Ume-Gothic
+
+% Unicode JIS04
+otf-ujmln-h	UniJIS2004-UTF16-H	ume-tmo3.ttf %!PS Ume-Mincho
+otf-ujmln-v	UniJIS2004-UTF16-V	ume-tmo3.ttf %!PS Ume-Mincho
+otf-ujmrn-h	UniJIS2004-UTF16-H	ume-tmo3.ttf %!PS Ume-Mincho
+otf-ujmrn-v	UniJIS2004-UTF16-V	ume-tmo3.ttf %!PS Ume-Mincho
+otf-ujmbn-h	UniJIS2004-UTF16-H	ume-tmo3.ttf %!PS Ume-Mincho
+otf-ujmbn-v	UniJIS2004-UTF16-V	ume-tmo3.ttf %!PS Ume-Mincho
+otf-ujgrn-h	UniJIS2004-UTF16-H	ume-tgo4.ttf %!PS Ume-Gothic
+otf-ujgrn-v	UniJIS2004-UTF16-V	ume-tgo4.ttf %!PS Ume-Gothic
+otf-ujgbn-h	UniJIS2004-UTF16-H	ume-tgo5.ttf %!PS Ume-Gothic-O5
+otf-ujgbn-v	UniJIS2004-UTF16-V	ume-tgo5.ttf %!PS Ume-Gothic-O5
+otf-ujgen-h	UniJIS2004-UTF16-H	ume-tgo5.ttf %!PS Ume-Gothic-O5
+otf-ujgen-v	UniJIS2004-UTF16-V	ume-tgo5.ttf %!PS Ume-Gothic-O5
+otf-ujmgrn-h	UniJIS2004-UTF16-H	ume-tgo4.ttf %!PS Ume-Gothic
+otf-ujmgrn-v	UniJIS2004-UTF16-V	ume-tgo4.ttf %!PS Ume-Gothic

@@ -1,0 +1,10 @@
+urml	unicode	SourceHanSerif-Regular.otf -l jp04 %!DVIPSFB !Ryumin-Light-UniJIS2004-UTF16-H
+urmlv	unicode	SourceHanSerif-Regular.otf -w 1 -l jp04 %!DVIPSFB !Ryumin-Light-UniJIS2004-UTF16-V
+ugbm	unicode	SourceHanSans-Medium.otf -l jp04 %!DVIPSFB !GothicBBB-Medium-UniJIS2004-UTF16-H
+ugbmv	unicode	SourceHanSans-Medium.otf -w 1 -l jp04 %!DVIPSFB !GothicBBB-Medium-UniJIS2004-UTF16-V
+uprml-h	unicode	SourceHanSerif-Regular.otf -l jp04 %!DVIPSFB !Ryumin-Light-UniJIS2004-UTF16-H
+uprml-v	unicode	SourceHanSerif-Regular.otf -w 1 -l jp04 %!DVIPSFB !Ryumin-Light-UniJIS2004-UTF16-V
+upgbm-h	unicode	SourceHanSans-Medium.otf -l jp04 %!DVIPSFB !GothicBBB-Medium-UniJIS2004-UTF16-H
+upgbm-v	unicode	SourceHanSans-Medium.otf -w 1 -l jp04 %!DVIPSFB !GothicBBB-Medium-UniJIS2004-UTF16-V
+uprml-hq	unicode	SourceHanSerif-Regular.otf -l fwid %!DVIPSFB !Ryumin-Light-UniJIS-UCS2-H
+upgbm-hq	unicode	SourceHanSans-Medium.otf -l fwid %!DVIPSFB !GothicBBB-Medium-UniJIS-UCS2-H

@@ -1,0 +1,12 @@
+
+% CID
+otf-ccmr-h	Identity-H	FandolSong-Regular.otf
+otf-ccmr-v	Identity-V	FandolSong-Regular.otf
+otf-ccgr-h	Identity-H	FandolHei-Regular.otf
+otf-ccgr-v	Identity-V	FandolHei-Regular.otf
+
+% Unicode
+otf-ucmr-h	UniGB-UCS2-H	FandolSong-Regular.otf
+otf-ucmr-v	UniGB-UCS2-V	FandolSong-Regular.otf
+otf-ucgr-h	UniGB-UCS2-H	FandolHei-Regular.otf
+otf-ucgr-v	UniGB-UCS2-V	FandolHei-Regular.otf

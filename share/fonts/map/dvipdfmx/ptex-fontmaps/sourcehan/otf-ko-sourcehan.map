@@ -1,0 +1,12 @@
+
+% CID
+otf-ckmr-h	Identity-H	!HYSMyeongJo-Medium
+otf-ckmr-v	Identity-V	!HYSMyeongJo-Medium
+otf-ckgr-h	Identity-H	!HYGoThic-Medium
+otf-ckgr-v	Identity-V	!HYGoThic-Medium
+
+% Unicode
+otf-ukmr-h	unicode	SourceHanSerifK-Regular.otf %!DVIPSFB !HYSMyeongJo-Medium-UniKS-UCS2-H
+otf-ukmr-v	unicode	SourceHanSerifK-Regular.otf -w 1 %!DVIPSFB !HYSMyeongJo-Medium-UniKS-UCS2-V
+otf-ukgr-h	unicode	SourceHanSansK-Medium.otf %!DVIPSFB !HYGoThic-Medium-UniKS-UCS2-H
+otf-ukgr-v	unicode	SourceHanSansK-Medium.otf -w 1 %!DVIPSFB !HYGoThic-Medium-UniKS-UCS2-V
